@@ -6,4 +6,4 @@ Privacy-Preserving Deep Learning via Additively Homomorphic Encryption
 #### python test.py
 
 ## LWE-based PHE
-#### python test.py | python cuda_test.py
+#### python cpu_test.py | python cuda_test.py
