@@ -118,7 +118,7 @@ for epoch in range(EPOCH_NUM):
             _, predicted = torch.max(outputs.data, 1)
             total += labels.size(0)
             correct += (predicted == labels).sum()
-        print('Epoch %d Acc: %d%%' % (epoch + 1, (100 * correct / total)))
+        print('Epoch %d Acc: %.2f%%' % (epoch + 1, (100 * float(correct) / total)))
 
 with torch.no_grad():
     correct = 0
