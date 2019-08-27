@@ -176,7 +176,7 @@ for epoch in range(EPOCH_NUM):
             _, predicted = torch.max(outputs.data, 1)
             total += labels.size(0)
             correct += (predicted == labels).sum()
-        print('第%d个epoch的识别准确率为：%d%%' % (epoch + 1, (100 * correct / total)))
+        print('第%d个epoch的识别准确率为：%.2f%%' % (epoch + 1, (100 * float(correct) / total)))
 
 print("Train Time: %.1f s/epoch" % ((time.time() - st) / EPOCH_NUM))
 
