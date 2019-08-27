@@ -6,6 +6,7 @@ Privacy-Preserving Deep Learning via Additively Homomorphic Encryption
 #### python test.py
 
 ## LWE-based PHE
+#### mkdir key // 创建用于存储密钥的文件夹
 #### python cpu_test.py | python cuda_test.py
 
 ## LeNet训练
