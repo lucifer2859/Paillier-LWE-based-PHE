@@ -25,7 +25,7 @@ class PublicKey:
 from cuda_test import KeyGen, Enc, Dec
 
 # 超参数设置
-EPOCH_NUM = 50  # 遍历数据集次数
+EPOCH_NUM = 15  # 遍历数据集次数
 BATCH_SIZE = 64  # 批处理尺寸(batch_size)
 LR = 0.001  # 学习率
 CLIENT_NUM = 2 # client 数目
@@ -178,7 +178,7 @@ for epoch in range(EPOCH_NUM):
             correct += (predicted == labels).sum()
         print('第%d个epoch的识别准确率为：%d%%' % (epoch + 1, (100 * correct / total)))
 
-print("Train Time: %.1f min/epoch" % ((time.time() - st) / (EPOCH_NUM * 60)))
+print("Train Time: %.1f s/epoch" % ((time.time() - st) / EPOCH_NUM))
 
 # 最终测试一下准确率
 with torch.no_grad():
