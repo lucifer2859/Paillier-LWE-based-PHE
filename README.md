@@ -1,7 +1,7 @@
 # Paillier-LWE-based-PHE
 Privacy-Preserving Deep Learning via Additively Homomorphic Encryption
 
-## CUDA版本：9.1
+## CUDA版本：9.0与9.1皆可
 
 ## python-paillier-master
 #### python setup.py test
