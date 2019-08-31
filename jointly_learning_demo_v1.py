@@ -103,7 +103,7 @@ for epoch in range(EPOCH_NUM):
 
         params_modules_server = net.to(device).named_parameters()
         for params_module in params_modules_server:
-            (name, params) = params_module
+            name, params = params_module
             params.grad = client_average_grad_dict[name]
         optimizer_server.step()
 
