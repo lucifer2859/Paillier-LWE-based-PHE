@@ -12,6 +12,9 @@ Privacy-Preserving Deep Learning via Additively Homomorphic Encryption
 #### mkdir key // 创建用于存储密钥的文件夹
 #### python cpu_test.py | python cuda_test.py
 
+## 数据集分割
+#### python split_data.py
+
 ## LeNet训练
 #### mkdir models // 创建用于存储模型的文件夹
 #### LeNet.py、LeNet_subset.py与jointly_learning_demo.py可以独立运行（注意数据集路径）
