@@ -20,3 +20,4 @@ Privacy-Preserving Deep Learning via Additively Homomorphic Encryption
 ## 代码版本区别
 #### v1: 数据集没有实际分割，在训练时模拟分割；
 #### v2: 数据集有实际分割；
+#### v3: 将用户进行了类封装；
