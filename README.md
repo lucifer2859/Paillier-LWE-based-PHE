@@ -21,6 +21,7 @@ Privacy-Preserving Deep Learning via Additively Homomorphic Encryption
 #### jointly_learning_with_encryption_demo.py需要注意import LeNet与cuda_test时的路径（可以将其与LeNet.py放入LWE-based PHE根目录中）
 
 ## 代码版本区别
+### jointly_learning: 上传梯度，下载聚合后的梯度
 #### v1: IID，平衡，数据集没有实际分割，在训练时模拟分割；
 #### v2: IID，平衡，数据集有实际分割；
 #### v3: IID，将用户进行了类封装，每个epoch迭代最小数据集的iteration数；
