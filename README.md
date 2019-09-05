@@ -23,4 +23,4 @@ Privacy-Preserving Deep Learning via Additively Homomorphic Encryption
 ## 代码版本区别
 #### v1: IID，平衡，数据集没有实际分割，在训练时模拟分割；
 #### v2: IID，平衡，数据集有实际分割；
-#### v3: IID，平衡，将用户进行了类封装；
+#### v3: IID，将用户进行了类封装，每个epoch迭代最小数据集的iteration数；
