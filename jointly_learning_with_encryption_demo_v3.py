@@ -109,8 +109,8 @@ for i in range(CLIENT_NUM):
 
 min_dataset_len = client_list[0].dataset_len
 for i in range(1, CLIENT_NUM):
-    if client_list[0].dataset_len < min_dataset_len:
-        min_dataset_len = client_list[0].dataset_len
+    if client_list[i].dataset_len < min_dataset_len:
+        min_dataset_len = client_list[i].dataset_len
 
 model_parameters = net.state_dict()
 
