@@ -24,4 +24,5 @@ Privacy-Preserving Deep Learning via Additively Homomorphic Encryption
 ### jointly_learning: 上传梯度，下载聚合后的梯度
 #### v1: IID，平衡，数据集没有实际分割，在训练时模拟分割；
 #### v2: IID，平衡，数据集有实际分割；
-#### v3: IID，将用户进行了类封装，每个epoch迭代最小数据集的iteration数；
+#### v3: IID，将用户进行了类封装，每个epoch迭代最小数据集的iteration数，逐用户测试；
+#### v4: 在v3基础上添加了对Non-IID设置以及完整数据集测试的支持；
