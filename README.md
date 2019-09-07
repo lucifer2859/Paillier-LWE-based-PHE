@@ -26,3 +26,4 @@ Privacy-Preserving Deep Learning via Additively Homomorphic Encryption
 #### v2: IID，平衡，数据集有实际分割；
 #### v3: IID，将用户进行了类封装，每个epoch迭代最小数据集的iteration数，逐用户测试；
 #### v4: 在v3基础上添加了对Non-IID设置以及完整数据集测试的支持；
+### federated_learning: 上传模型，下载聚合后的模型（FedAvg）
