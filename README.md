@@ -29,3 +29,4 @@ Privacy-Preserving Deep Learning via Additively Homomorphic Encryption
 ### federated_learning: 上传模型，下载聚合后的模型
 #### v1: FedAvg;
 #### v2: EASGD(Elastic Averaging SGD);
+#### v3: FedProx;
